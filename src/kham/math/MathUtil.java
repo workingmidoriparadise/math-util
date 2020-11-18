@@ -29,7 +29,7 @@ public class MathUtil {
         // kì vọng ném về ngoại lệ IllegalArgumentException nếu người dùng
         // cố tình đưa tham số âm hoặc tham số > 20
         System.out.println("expected: IllegalArgumentException: " + MathUtility.getFactorial(-5));
-        System.out.println("Test Push GitHub");
+        System.out.println("I want to test .yml file");
     }
 }
 

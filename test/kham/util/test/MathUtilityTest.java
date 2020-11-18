@@ -48,4 +48,15 @@ public class MathUtilityTest {
         // Hãy tính dùm 5! coi nó có là 120 hay không
         // Nếu có thì báo màu xanh, ko thì báo màu đỏ
     }
+    // Các tool: Jenkins, Bamboo CI, Circle CI, Team City, Travis CI, GitHub Actions
+    
+    // Yêu cầu GitHub làm việc sau: 
+    // -> Xài jdk máy ảo của nó
+    // -> Xài Ant máy ảo
+    // -> Build, Chạy test
+    // -> Đỏ => gửi email chửi
+    // -> xanh --> .jar cất đâu đó
+    // ==> toàn bộ quá trình gọi là WORKFLOW file TEXT để trên kho đuôi .yml
+    
+    
 }
