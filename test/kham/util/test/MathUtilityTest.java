@@ -43,7 +43,7 @@ public class MathUtilityTest {
         assertEquals(120, getFactorial(5));
         assertEquals(24, getFactorial(4));
         assertEquals(720, getFactorial(6));
-        assertEquals(0, getFactorial(0));
+        assertEquals(1, getFactorial(0));
         
         // Hãy tính dùm 5! coi nó có là 120 hay không
         // Nếu có thì báo màu xanh, ko thì báo màu đỏ
@@ -58,5 +58,7 @@ public class MathUtilityTest {
     // -> xanh --> .jar cất đâu đó
     // ==> toàn bộ quá trình gọi là WORKFLOW file TEXT để trên kho đuôi .yml
     
-    
+    //Tui sửa lại code expected = 1 để có màu xanh local
+    // và tui cũng muốn thấy màu xanh trên GIT để tui đóng dấu
+    // chất lượng code của tui
 }
